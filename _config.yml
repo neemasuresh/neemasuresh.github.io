@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Neema Suresh"
-  avatar : "/assets/images/profile.jpg"
+  avatar : "/assets/images/profile.jpeg"
   bio    : "Hardware & Embedded Systems Engineer"
 
   links:
