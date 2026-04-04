@@ -57,18 +57,19 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-name   : "Neema Suresh"
-avatar : "/assets/images/profile.jpg"
-bio    : "Hardware & Embedded Systems Engineer"
+author:
+  name   : "Neema Suresh"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "Hardware & Embedded Systems Engineer"
 
-links:
-  - label: "LinkedIn"
-    icon: "fab fa-fw fa-linkedin"
-    url: "http://www.linkedin.com/in/neemasuresh"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "http://www.linkedin.com/in/neemasuresh"
 
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/neemasuresh"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/neemasuresh"
 
 footer:
   links:
