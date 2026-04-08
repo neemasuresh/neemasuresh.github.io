@@ -1,9 +1,8 @@
-
 ---
 title: "FPGA-Based Signal Conditioning using FIR LPF"
 layout: single
+collection: projects
 ---
-
 ## 🔍 Overview
 Designed and implemented an FPGA-based FIR low-pass filter for signal conditioning.
 
