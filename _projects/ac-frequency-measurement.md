@@ -1,8 +1,8 @@
 ---
 title: "AC Mains Frequency Measurement using STM32"
 layout: single
+collection: projects
 ---
-
 ## 🔍 Overview
 Designed a system to measure AC mains frequency using STM32 with isolated signal conditioning.
 
