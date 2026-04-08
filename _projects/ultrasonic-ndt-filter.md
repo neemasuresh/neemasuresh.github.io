@@ -1,7 +1,7 @@
-
 ---
-title: "Real-Time Programmable Digital Filter for Ultrasonic NDT"
+title: "Real-Time Digital Filter for Ultrasonic NDT"
 layout: single
+collection: projects
 ---
 
 ## 🔍 Overview
