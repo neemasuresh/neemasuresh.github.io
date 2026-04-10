@@ -78,7 +78,4 @@ The system safely converts AC signals into digital pulses and uses timer input c
 
 ---
 
-## 📂 Downloads (Optional)
-- [Schematic File](#)
-- [PCB Layout](#)
-- [Gerber Files](#)
+
