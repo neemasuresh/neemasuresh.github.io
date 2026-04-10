@@ -1,22 +1,37 @@
+---
+title: "AC Mains Frequency Measurement using STM32"
+layout: single
+collection: projects
+---
+
 ## 🔍 Overview
-Designed a system to measure AC mains frequency using an STM32 microcontroller with proper electrical isolation.  
-The system converts AC signals into safe digital pulses and measures frequency using timer capture.
+Designed and implemented a system to measure AC mains frequency using an STM32 microcontroller with proper electrical isolation.  
+The system safely converts AC signals into digital pulses and uses timer input capture to compute frequency in real time.
 
 ---
 
-## ⚙️ Features
+## ⚙️ Key Features
 - Optocoupler-based isolation for safe AC interfacing  
 - Timer input capture for precise frequency measurement  
-- Real-time display on LCD  
-- Stable and noise-resistant signal conditioning  
+- Real-time frequency display on 16x2 LCD  
+- Noise-resistant signal conditioning  
+- Reliable operation for 50 Hz mains  
 
 ---
 
-## 🧩 Components Used
-- STM32 Microcontroller  
+## 🧠 Working Principle
+- AC mains signal is stepped down and passed through an optocoupler  
+- The optocoupler generates a digital pulse corresponding to AC zero-crossing  
+- STM32 timer captures the time between pulses  
+- Frequency is calculated using timer difference  
+
+---
+
+## 🧩 Hardware Used
+- STM32G431CBT6 Microcontroller  
 - PC817 Optocoupler  
-- Resistors, capacitors (signal conditioning)  
-- 16x2 LCD display  
+- Resistors and capacitors (signal conditioning)  
+- 16x2 LCD Display  
 
 ---
 
@@ -29,12 +44,37 @@ The system converts AC signals into safe digital pulses and measures frequency u
 
 ## 💡 My Contributions
 - Designed isolation and signal conditioning circuit  
-- Configured STM32 timers for input capture  
+- Configured STM32 timer in input capture mode  
 - Implemented LCD interface without external libraries  
-- Calibrated system for accurate frequency measurement  
+- Ensured accurate and stable frequency computation  
+
+---
+
+## 🔌 Circuit & PCB
+
+### Schematic
+![Schematic](/assets/images/ac-frequency/schematic.png)
+
+### PCB Design
+![PCB](/assets/images/ac-frequency/pcb.png)
 
 ---
 
 ## 📊 Results
-- Achieved accurate AC frequency measurement (~50 Hz)  
-- Reliable and safe operation with isolation  
+
+### Output / Display
+![Output](/assets/images/ac-frequency/output.jpg)
+
+### Hardware Setup
+![Setup](/assets/images/ac-frequency/setup.jpg)
+
+- Achieved accurate measurement of AC mains frequency (~50 Hz)  
+- Stable readings with minimal noise interference  
+- Safe operation ensured through electrical isolation  
+
+---
+
+## 📂 Downloads (Optional)
+- [Schematic File](#)
+- [PCB Layout](#)
+- [Gerber Files](#)
