@@ -53,17 +53,18 @@ The system safely converts AC signals into digital pulses and uses timer input c
 ## 🔌 Circuit & PCB
 
 ### Schematic
-![Schematic](/assets/images/ac-frequency/schematic.png)
+![Schematic](/assets/images/ac-frequency/AC_SCHEM1.png)
+![Schematic](/assets/images/ac-frequency/AC_SCHEM2.png)
 
 ### PCB Design
-![PCB](/assets/images/ac-frequency/pcb.png)
+![PCB](/assets/images/ac-frequency/ac_pcb.png)
 
 ---
 
 ## 📊 Results
 
 ### Output / Display
-![Output](/assets/images/ac-frequency/output.jpg)
+![Output](/assets/images/ac-frequency/acoutput.jpg)
 
 ### Hardware Setup
 ![Setup](/assets/images/ac-frequency/setup.jpg)
