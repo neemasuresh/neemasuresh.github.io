@@ -78,7 +78,7 @@ The system efficiently filters input signals using a hardware-based architecture
 ---
 
 ## 📎 Downloads
-- 📥 [Download Full Project](./firlp.zip)
+- 📥 [Download Full Project](.[/firlp.zip](https://github.com/neemasuresh.github.io/blob/master/firlp.zip))
 ---
 
 ## 🏁 Conclusion
