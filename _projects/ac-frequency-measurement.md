@@ -64,7 +64,7 @@ The system safely converts AC signals into digital pulses and uses timer input c
 ## 📊 Results
 
 ### Output / Display
-![Output](/assets/images/ac-frequency/acoutput.jpg)
+![Output](/assets/images/ac-frequency/acoutput.png)
 
 ### Hardware Setup
 ![Setup](/assets/images/ac-frequency/setup.jpg)
