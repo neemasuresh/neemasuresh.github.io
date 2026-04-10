@@ -55,7 +55,8 @@ The system efficiently filters input signals using a hardware-based architecture
 ## 🔌 Circuit & Hardware
 
 ### FPGA Board 
-
+### PCB
+![FPGA Board](/assets/images/firlp/firlppcb.jpg)
 ### Schematic
 
 ![FPGA Board](/assets/images/firlp/DigitalBoard_page-0001.jpg)
@@ -67,7 +68,7 @@ The system efficiently filters input signals using a hardware-based architecture
 ## 📊 Results
 
 ### Simulation Output
-![Waveform](./simulation/waveforms.png)
+![Waveform](/assets/images/firlp/lpoutresponse.jpg)
 
 - Successfully attenuated high-frequency noise  
 - Output matches expected low-pass filter behavior  
