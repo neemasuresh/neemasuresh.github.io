@@ -77,7 +77,7 @@ The system efficiently filters input signals using a hardware-based architecture
 
 ---
 ## 📎 Downloads
-- 📥 [Download Full Project](https://github.com/neemasuresh/neemasuresh.github.io/raw/master/firlp.zip)
+- 📥 [Download verilog and python code](https://github.com/neemasuresh/neemasuresh.github.io/raw/master/firlp.zip)
 
 ## 🏁 Conclusion
 This project demonstrates an efficient **FPGA-based digital filtering system**, showcasing the advantages of hardware acceleration for real-time signal processing applications.
