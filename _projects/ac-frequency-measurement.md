@@ -46,7 +46,10 @@ The system safely converts AC signals into digital pulses and uses timer input c
 - Designed isolation and signal conditioning circuit  
 - Configured STM32 timer in input capture mode  
 - Implemented LCD interface without external libraries  
-- Ensured accurate and stable frequency computation  
+- Designed custom PCB for the complete system  
+- Assembled and soldered all components on PCB  
+- Debugged hardware issues and ensured stable operation  
+- Achieved accurate and reliable frequency computation  
 
 ---
 
