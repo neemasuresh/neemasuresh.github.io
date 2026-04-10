@@ -78,10 +78,7 @@ The system efficiently filters input signals using a hardware-based architecture
 ---
 
 ## 📎 Downloads
-- 📥 [Verilog Source Code](./verilog/)
-- 📥 [Simulation Files](./simulation/)
-- 📥 [PCB Design](./pcb/)
-
+- 📥 [Download Full Project](./firlp.zip)
 ---
 
 ## 🏁 Conclusion
