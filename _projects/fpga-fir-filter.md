@@ -54,9 +54,12 @@ The system efficiently filters input signals using a hardware-based architecture
 
 ## 🔌 Circuit & Hardware
 
-### FPGA Board
-![FPGA Board](./pcb/fpga_board.png)
-
+### FPGA Board 
+circuit diagram
+![FPGA Board](assets/images/firlp/DigitalBoard_page-0001.jpg)
+![FPGA Board](assets/images/firlp/DigitalBoard_page-0002.jpg)
+![FPGA Board](assets/images/firlp/DigitalBoard_page-0003.jpg)
+![FPGA Board](assets/images/firlp/DigitalBoard_page-0004.jpg)
 ---
 
 ## 📊 Results
