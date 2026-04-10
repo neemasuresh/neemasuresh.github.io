@@ -1,38 +1,40 @@
----
-title: "AC Mains Frequency Measurement using STM32"
-layout: single
-collection: projects
----
 ## 🔍 Overview
-Designed a system to measure AC mains frequency using STM32 with isolated signal conditioning.
+Designed a system to measure AC mains frequency using an STM32 microcontroller with proper electrical isolation.  
+The system converts AC signals into safe digital pulses and measures frequency using timer capture.
 
 ---
 
 ## ⚙️ Features
-- Optocoupler-based isolation for AC input  
-- Timer capture-based frequency measurement  
-- High accuracy real-time measurement  
+- Optocoupler-based isolation for safe AC interfacing  
+- Timer input capture for precise frequency measurement  
+- Real-time display on LCD  
+- Stable and noise-resistant signal conditioning  
 
 ---
 
 ## 🧩 Components Used
 - STM32 Microcontroller  
-- Optocoupler  
-- Passive components  
+- PC817 Optocoupler  
+- Resistors, capacitors (signal conditioning)  
+- 16x2 LCD display  
 
 ---
 
 ## 🛠 Tools & Software
 - Embedded C  
 - STM32CubeIDE  
-- PCB Design (KiCad / Altium)  
+- PCB Design (Altium / KiCad)  
 
 ---
 
-## 🔌 Circuit & PCB
-(Add your images here)
+## 💡 My Contributions
+- Designed isolation and signal conditioning circuit  
+- Configured STM32 timers for input capture  
+- Implemented LCD interface without external libraries  
+- Calibrated system for accurate frequency measurement  
 
 ---
 
 ## 📊 Results
-Validated system accuracy experimentally.
+- Achieved accurate AC frequency measurement (~50 Hz)  
+- Reliable and safe operation with isolation  
