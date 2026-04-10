@@ -69,7 +69,7 @@ The system efficiently filters input signals using a hardware-based architecture
 ## 📊 Results
 
 ### Simulation Output
-![Waveform](/assets/images/firlp/lpoutresponse.jpg)
+![Waveform](/assets/images/firlp/lpoutresponse.png)
 
 - Successfully attenuated high-frequency noise  
 - Output matches expected low-pass filter behavior  
