@@ -2,6 +2,7 @@
 title: "AC Mains Frequency Measurement using STM32"
 layout: single
 collection: projects
+date: 2026-04-06
 ---
 
 ## 🔍 Overview
