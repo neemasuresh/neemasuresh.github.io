@@ -125,7 +125,7 @@ Ultrasonic Signal → ADC → FPGA (FIR Filter) → DAC → Output
 ## 🔬 Hardware Implementation
 
 ### PCB Design
-![PCB](assets/images/ndt/fir_ndt_Pcb.png)
+![PCB](/assets/images/ndt/fir_ndt_Pcb.png)
 
 ### schematic
 ![Hardware](/assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0001.jpg)
