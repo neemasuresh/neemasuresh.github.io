@@ -1,1 +1,26 @@
+---
+layout: default
+---
 
+<h1>{{ page.title }}</h1>
+
+{% for post in site.projects reversed %}
+
+<div style="display: flex; align-items: center; gap: 30px; margin-bottom: 50px; flex-wrap: wrap;">
+
+  <!-- LEFT: TEXT -->
+  <div style="flex: 1; min-width: 300px;">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </div>
+
+  <!-- RIGHT: IMAGE -->
+  <div style="flex: 1; min-width: 250px;">
+    {% if post.header.teaser %}
+      <img src="{{ post.header.teaser }}" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+    {% endif %}
+  </div>
+
+</div>
+
+{% endfor %}
