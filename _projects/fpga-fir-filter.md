@@ -3,6 +3,8 @@ title: "FPGA-Based Signal Conditioning using FIR LPF"
 layout: single
 collection: projects
 date: 2026-04-03
+header:
+  teaser: /assets/images/firlp/lpoutresponse.png
 ---
 
 ## 🔍 Overview
