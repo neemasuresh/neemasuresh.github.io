@@ -2,7 +2,7 @@
 title: "FPGA-Based Signal Conditioning using FIR LPF"
 layout: single
 collection: projects
-date:
+date: 2026-04-03
 ---
 
 ## 🔍 Overview
