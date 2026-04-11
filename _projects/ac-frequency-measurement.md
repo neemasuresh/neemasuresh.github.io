@@ -3,10 +3,10 @@ title: "AC Mains Frequency Measurement using STM32"
 layout: single
 collection: projects
 date: 2026-04-06
+
 header:
   teaser: /assets/images/ac-frequency/ac_pcb.png
 ---
-
 ## 🔍 Overview
 Designed and implemented a system to measure AC mains frequency using an STM32 microcontroller with proper electrical isolation.  
 The system safely converts AC signals into digital pulses and uses timer input capture to compute frequency in real time.
