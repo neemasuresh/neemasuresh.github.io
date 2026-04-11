@@ -2,8 +2,8 @@
 title: "Real-Time Digital Filter for Ultrasonic NDT"
 layout: single
 collection: projects
+date: 2026-04-10
 ---
-
 ## 🔍 Overview
 Designed and implemented a high-speed real-time digital filtering system for Ultrasonic Non-Destructive Testing (NDT) applications.  
 The system processes ultrasonic signals using an FPGA-based FIR filter with dynamic coefficient control, enabling flexible filtering (LPF, HPF, BPF) based on user input.
