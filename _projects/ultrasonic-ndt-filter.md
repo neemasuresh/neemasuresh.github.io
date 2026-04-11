@@ -3,6 +3,8 @@ title: "Real-Time Digital Filter for Ultrasonic NDT"
 layout: single
 collection: projects
 date: 2026-04-10
+header:
+  teaser: /assets/images/ndt/fir_ndt_Pcb.png
 ---
 ## 🔍 Overview
 Designed and implemented a high-speed real-time digital filtering system for Ultrasonic Non-Destructive Testing (NDT) applications.  
