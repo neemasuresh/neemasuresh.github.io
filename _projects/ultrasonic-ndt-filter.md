@@ -26,7 +26,7 @@ Ultrasonic Signal → ADC → FPGA (FIR Filter) → DAC → Output
 ---
 
 ## 📐 Block Diagram
-![Block Diagram](/assets/images/ndt/block_diagram.png)
+![Block Diagram](/assets/images/ndt/ndtblock.png)
 
 ---
 
@@ -73,7 +73,7 @@ Ultrasonic Signal → ADC → FPGA (FIR Filter) → DAC → Output
   - Filter type (LPF / HPF / BPF)  
   - Cutoff frequency  
 - GUI sends parameters to STM32 via UART  
-
+![GUI](/assets/images/ndt/ndtgui.png)
 ---
 
 ## 🔄 Working Principle
@@ -125,11 +125,15 @@ Ultrasonic Signal → ADC → FPGA (FIR Filter) → DAC → Output
 ## 🔬 Hardware Implementation
 
 ### PCB Design
-![PCB](/assets/images/ndt/pcb.png)
+![PCB](assets/images/ndt/fir_ndt_Pcb.png)
 
-### Assembled Board
-![Hardware](/assets/images/ndt/hardware.jpg)
-
+### schematic
+![Hardware](assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0001.jpg)
+![Hardware](assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0002.jpg)
+![Hardware](assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0003.jpg)
+![Hardware](assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0004.jpg)
+![Hardware](assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0005.jpg)
+![Hardware](assets/images/ndt/FIR_FILTER_FOR_UL_NDT_page-0006.jpg)
 ---
 
 ## 📊 Results
