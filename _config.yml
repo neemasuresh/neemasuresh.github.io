@@ -88,10 +88,10 @@ footer:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/files/neemasuresh_resume.pdf"
-  atom_feed:
-      hide: true
+
   since: 2026
   powered_by: false
+
 
 defaults:
   # _posts
@@ -124,3 +124,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+atom_feed:
+  hide: true
