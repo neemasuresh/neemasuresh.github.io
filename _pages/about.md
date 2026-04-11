@@ -2,7 +2,7 @@
 title: "About"
 layout: single
 permalink: /about/
-------------------
+---
 
 Hi, I'm **Neema Suresh**, an M.Tech student in VLSI & Embedded Systems.
 
