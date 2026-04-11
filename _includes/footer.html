@@ -1,1 +1,17 @@
+<footer class="page__footer">
+  <div class="page__footer-follow">
+    <ul class="social-icons">
+      {% for link in site.footer.links %}
+        <li>
+          <a href="{{ link.url }}">
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
+  <div class="page__footer-copyright">
+    &copy; {{ site.time | date: '%Y' }} {{ site.title }}
+  </div>
+</footer>
