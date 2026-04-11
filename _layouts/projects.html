@@ -2,22 +2,49 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<h1 style="margin-bottom: 40px;">{{ page.title }}</h1>
 
-{% for post in site.projects reversed %}
+{% assign sorted = site.projects | sort: 'date' | reverse %}
 
-<div style="display: flex; align-items: center; gap: 30px; margin-bottom: 50px; flex-wrap: wrap;">
+{% for post in sorted %}
+
+<div style="
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  flex-wrap: wrap;
+">
 
   <!-- LEFT: TEXT -->
-  <div style="flex: 1; min-width: 300px;">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
+  <div style="flex: 1; min-width: 280px;">
+    <h2 style="margin-bottom: 10px;">
+      <a href="{{ post.url }}" style="text-decoration: none; color: #2c3e50;">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <p style="color: #555; line-height: 1.6;">
+      {{ post.excerpt | strip_html | truncate: 180 }}
+    </p>
   </div>
 
   <!-- RIGHT: IMAGE -->
-  <div style="flex: 1; min-width: 250px;">
+  <div style="flex: 1; min-width: 260px; text-align: center;">
     {% if post.header.teaser %}
-      <img src="{{ post.header.teaser }}" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+      <img src="{{ post.header.teaser }}"
+           style="
+             width: 100%;
+             max-width: 320px;
+             height: auto;
+             border-radius: 10px;
+             box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+           ">
     {% endif %}
   </div>
 
