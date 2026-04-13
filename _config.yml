@@ -127,7 +127,7 @@ collections:
 
 atom_feed:
   hide: true
-nav:
+main:
   - title: "Home"
     url: /
 
